@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Sección de Catálogo con fondo */
+.catalogo-fondo {
+  background-image: url('https://i.gifer.com/5eea.gif'); 
+  background-size: cover;
+  background-position: center; 
+  color: #fff; 
+  padding: 80px 0; 
+}
+
+.catalogo-fondo h1, .catalogo-fondo p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+/* Card styling */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Image container */
+.ruleta {
+  display: flex;
+  width: 800px; 
+  height: 330px;
+}
+
+/* Images */
+.ruleta img {
+  width: 0px; 
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+
+}
+
+/* Hover effect */
+.ruleta img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+/* Imagen única */
+.single-image {
+  display: none; 
+}
+
+.single-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .ruleta img {
+    display: none; 
+  }
+
+  .single-image {
+    display: block; 
+    text-align: center; 
+  }
+}
+
+.facu {
+  color: black;
+  transition: 0.3;
+}
+
+.facu:hover {
+  background-color: #5583ec;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.lia {
+  color: black;
+  transition: 0.3;
+}
+
+.lia:hover {
+  background-color: #eb72ef;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.marce {
+  color: black;
+  transition: 0.3;
+}
+
+.marce:hover {
+  background-color: #5583ec;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}

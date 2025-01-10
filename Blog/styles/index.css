@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header a {
+  gap: 15px;
+  transition: 0.3s;
+}
+
+header a span {
+  color: #4652b9;
+  font-size: 26px;
+}
+
+header ul li {
+  font-size: 16px;
+}
+
+header a:hover {
+  transition: 0.3s;
+  transform: scale(1.07);
+}
+
+/*cover the content*/
+
+.portada {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 70vh; 
+  overflow: hidden;;
+}
+
+.portada img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(80%); 
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  text-align: center; 
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+}
+
+.image {
+  width: 200px; 
+  height: auto;
+  margin-right: 0px;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.content ul {
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.detmedicon{
+  background: rgb(2,2,89);
+  background: linear-gradient(0deg, rgba(2,2,89,1) 32%, rgba(255,255,255,1) 55%);}
+
+.map-contiene {
+  text-align: center;
+}
+
+.map-contiene iframe {
+  display: inline-block;
+}
+
+.maquina-escribir {
+  font-size: 3vw; 
+  max-width: 80%; 
+  margin: 0 auto; 
+  font-family: monospace;
+  white-space: nowrap;         
+  width: 50ch; 
+  animation: escribiendo 2s steps(20);          
+  overflow: hidden;
+  color: white; 
+}
+
+.cursor{
+  display: inline-block;
+  animation: 0.6s parpadeo-cursor infinite;
+}
+
+@keyframes escribiendo {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes parpadeo-cursor {
+  50% {
+    opacity: 0;
+  }
+}
+
+.map-contiene iframe {
+  border-radius: 10px;
+}
+
+
+/* CSS Footer */
+footer ul {
+  gap: 10px;
+}
+
+.facu {
+  color: black;
+  transition: 0.3;
+}
+
+.facu:hover {
+  background-color: #5583ec;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.lia {
+  color: black;
+  transition: 0.3;
+}
+
+.lia:hover {
+  background-color: #eb72ef;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.marce {
+  color: black;
+  transition: 0.3;
+}
+
+.marce:hover {
+  background-color: #5583ec;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}

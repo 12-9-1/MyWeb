@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Sección de Catálogo con fondo */
+.fondo {
+  background-image: url('../images/about-us-images/banner.png'); 
+  background-size: cover;
+  background-position: center; 
+  color: #fff; 
+  padding: 80px 0; 
+}
+
+.fondo h1, .fondo p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.modal-content {
+  color: #333;
+}
+
+.modal-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* CSS tecnologias utilizadas */
+
+.tec {
+  padding: 5px 12px;
+}
+.tec h2 {
+  font-size: 36px;
+  text-align: center;
+  padding: 2px 10px;
+  border-bottom: 2px solid;
+  border-color: rgb(17, 110, 222);
+}
+.tecnologias {
+  padding: 10px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
+}
+
+.lenguajes {
+  height: 100px;
+  width: auto;
+  cursor: pointer;
+}
+
+.boot {
+  fill: #6528e0;
+}
+
+@media (max-width: 1080px) {
+  .tec h2 {
+    font-size: 26px;
+  }
+
+  .lenguajes {
+    height: 75px;
+    width: auto;
+  }
+}
+/* CSS Footer */
+
+footer ul {
+  gap: 10px;
+}
+
+.facu {
+  color: black;
+  transition: 0.3;
+}
+
+.facu:hover {
+  background-color: #5583ec;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.lia {
+  color: black;
+  transition: 0.3;
+}
+
+.lia:hover {
+  background-color: #eb72ef;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.marce {
+  color: black;
+  transition: 0.3;
+}
+
+.marce:hover {
+  background-color: #5583ec;
+  color: #fff;
+  padding: 2px 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
