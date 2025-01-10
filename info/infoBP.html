@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Personal</title>
+    <link rel="stylesheet" href="./styles/infoBP.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Blog Personal</h1>
+        <p>Pintora | Escritora | Programadora</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#gallery">Galería</a>
+        <a href="#blog">Escritura</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>Sobre Mí</h2>
+        <p>¡Hola! Soy una apasionada de la pintura, la escritura y la programación. Este blog es mi espacio personal donde comparto mis creaciones, reflexiones y proyectos. ¡Espero que disfrutes de mi contenido!</p>
+    </section>
+
+    <section id="gallery" class="section gallery">
+        <h2>Galería de Arte</h2>
+        <img src="https://via.placeholder.com/600x400" alt="Obra de arte">
+        <p><em>"Título de la obra" - Una breve descripción de la pintura.</em></p>
+    </section>
+
+    <section id="blog" class="section">
+        <h2>Escritura</h2>
+        <div class="card">
+            <h3>Título del Artículo</h3>
+            <p>Un fragmento del artículo o historia...</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Proyectos de Programación</h2>
+        <div class="card">
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto, tecnología utilizada y cómo contribuye a mi crecimiento como programadora.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o comentario, ¡me encantaría saber de ti! Puedes enviarme un mensaje a través del siguiente formulario:</p>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mi Blog Personal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
